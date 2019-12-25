@@ -1,0 +1,15 @@
+.btnWrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn {
+  border: none;
+  background-color: teal;
+  padding: 0.3em;
+  color: whitesmoke;
+  border-radius: 0.1em;
+  min-width: 5rem;
+}

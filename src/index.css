@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: calc (1vh + 1vw + 1%);
+}
+body {
+  width: 100vw;
+  min-height: 100vh;
+  padding-top: 1rem;
+  /* background-color: lightsteelblue; */
+}
