@@ -6,11 +6,16 @@
   margin-bottom: 2rem;
   font-size: 1.2rem;
 }
+
+.span {
+  color: black !important;
+}
 .description {
   display: flex;
   flex-direction: column;
   align-items: baseline;
   justify-content: space-around;
+  color: black;
 }
 .description textarea {
   height: 10rem;
@@ -35,4 +40,5 @@
 .location {
   display: flex;
   flex-direction: column;
+  color: black;
 }

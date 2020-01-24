@@ -5,20 +5,20 @@ import style from "./selectedItem.module.css";
 const SelectedItem = ({ selected }) => {
   return !selected ? null : (
     <div className={style.selectWrapper}>
-      <span>
+      <span className={style.span}>
         Selected user: <b>{`${selected.firstName} ${selected.lastName}`}</b>
       </span>
       <div className={style.location}>
-        <span>
+        <span className={style.span}>
           Address: <b>{selected.address.streetAddress}</b>
         </span>
-        <span>
+        <span className={style.span}>
           City: <b>{selected.address.city}</b>
         </span>
-        <span>
+        <span className={style.span}>
           State: <b>{selected.address.state}</b>
         </span>
-        <span>
+        <span className={style.span}>
           Zipcode: <b>{selected.address.zip}</b>
         </span>
       </div>

@@ -1,0 +1,35 @@
+.form {
+  width: 99%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  background-color: rgb(77, 74, 74);
+}
+.label {
+  width: 50%;
+}
+.input {
+  outline: none !important;
+  padding: 0.3em !important;
+  width: 30% !important;
+  border: none !important;
+  margin: 0 1rem 0 1rem !important;
+}
+span {
+  color: whitesmoke;
+}
+.select {
+  margin: 0 1rem 0 1rem;
+  padding: 0.2em;
+}
+.btn {
+  border: none;
+  padding: 0.3em;
+  font-weight: 700;
+  background-color: rgb(53, 126, 53);
+  color: whitesmoke;
+  cursor: pointer;
+  box-shadow: -1px 2px 47px -12px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: -1px 2px 47px -12px rgba(0, 0, 0, 0.9);
+}

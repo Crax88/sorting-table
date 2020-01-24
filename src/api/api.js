@@ -3,7 +3,14 @@ import axios from "axios";
 const instance = axios.create({
   baseURL: " http://www.filltext.com/"
 });
-
+// instance.interceptors.response.use(
+//   response => {
+//     console.log(response);
+//   },
+//   error => {
+//     return Promise.reject(error);
+//   }
+// );
 export const dataAPI = {
   async getChunk() {
     try {
@@ -22,7 +29,7 @@ export const dataAPI = {
       );
       return response.data;
     } catch (err) {
-      return { error: err };
+      return Promise.reject("Sorry, server is temporary unavaliable.");
     }
   }
 };
